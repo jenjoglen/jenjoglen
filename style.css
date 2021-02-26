@@ -32,7 +32,7 @@ a:hover {
 	color:black;
 }
 
-/* Custom design */
+/* Custom design with class (for 99% of design) */
 .container {
   width: 700px;
   margin: 40px auto;
@@ -46,8 +46,6 @@ a:hover {
 		width: 400px
 	}
 }
-
-
 
 .card-white {
   background-color: white;
@@ -85,6 +83,12 @@ font-size: 50px
 color: rgb(230,230,230);
 }
 
+.list-inline i:hover {
+color: black;
+}
 
-
+/* Design adjustments (for 1% of design left) */
+#introduction p {
+margin-bottom: 40px
+}
 
